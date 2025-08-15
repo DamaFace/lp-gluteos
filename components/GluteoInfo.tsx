@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import background from 'public/back-full-face.jpeg';
+import background from 'public/back-gluteo.jpg';
 
 const GluteoInfo = () => {
 const areas = [

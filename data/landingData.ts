@@ -1,57 +1,38 @@
-import labialAntes1 from '@/assets/ante-x-depois-img/labial-1.1.png'
-import labialDepois1 from '@/assets/ante-x-depois-img/labial-1.2.png'
-import labialAntes2 from '@/assets/ante-x-depois-img/labial-2.1.png'
-import labialDepois2 from '@/assets/ante-x-depois-img/labial-2.2.png'
-import labialAntes3 from '@/assets/ante-x-depois-img/labial-3.1.png'
-import labialDepois3 from '@/assets/ante-x-depois-img/labial-3.2.png'
-import labialAntes4 from '@/assets/ante-x-depois-img/labial-4.1.png'
-import labialDepois4 from '@/assets/ante-x-depois-img/labial-4.2.png'
+import gluteoAntes1 from '@/assets/ante-x-depois-img/gluteo-1.1.png'
+import gluteoDepois1 from '@/assets/ante-x-depois-img/gluteo-1.2.png'
+import gluteoAntes2 from '@/assets/ante-x-depois-img/gluteo-2.1.png'
+import gluteoDepois2 from '@/assets/ante-x-depois-img/gluteo-2.2.png'
+
+import depoimento1 from '@/assets/ante-x-depois-img/depoimento1'
+import depoimento2 from '@/assets/ante-x-depois-img/depoimento2'
 
 // Dados para o carrossel (antes x depois)
 export const carrosselData = [
   {
     id: 1,
-    imagem_antes_url: labialAntes1.src,
-    imagem_depois_url: labialDepois1.src,
-    legenda: "Transformação suave e natural com preenchimento labial"
+    imagem_antes_url: gluteoAntes1.src,
+    imagem_depois_url: gluteoDepois1.src,
+    legenda: "Transformação suave e natural"
   },
   {
     id: 2,
-    imagem_antes_url: labialAntes2.src,
-    imagem_depois_url: labialDepois2.src,
+    imagem_antes_url: gluteoAntes2.src,
+    imagem_depois_url: gluteoDepois2.src,
     legenda: "Harmonização completa realçando a beleza natural"
-  },
-  {
-    id: 3,
-    imagem_antes_url: labialAntes3.src,
-    imagem_depois_url: labialDepois3.src,
-    legenda: "Resultado equilibrado e sofisticado"
-  },
-    {
-    id: 4,
-    imagem_antes_url: labialAntes4.src,
-    imagem_depois_url: labialDepois4.src,
-    legenda: "Resultado equilibrado e sofisticado"
   }
 ];
 // dados para os depoimentos 
 export const depoimentosData = [
   {
     id: 1,
-    nome_paciente: "Ana F.",
-    foto_paciente_url: labialDepois1.src,
-    depoimento: "Sempre quis ter glúteos mais arredondados e firmes. Depois do tratamento de harmonização de glúteos na DamaFace, meu bumbum ganhou mais volume e um formato muito mais bonito."
-  },
-  {
-    id: 2,
-    nome_paciente: 'Ana Maria',
-    foto_paciente_url: labialDepois2.src,
+    nome_paciente: 'Isabela R.',
+    foto_paciente_url: depoimento1.src,
     depoimento: "Eu tinha flacidez nos glúteos e não me sentia confortável com isso. Após a harmonização de glúteos na DamaFace, notei mais sustentação, firmeza e um contorno incrível."
   },
   {
-    id: 3,
-    nome_paciente: "Luiza",
-    foto_paciente_url: labialDepois3.src,
+    id: 2,
+    nome_paciente: "Larissa M.",
+    foto_paciente_url: depoimento2.src,
     depoimento: "A harmonização de glúteos na DamaFace superou minhas expectativas. O volume ficou proporcional ao meu corpo e o resultado foi natural, sem perder a minha essência."
   }
 ];
