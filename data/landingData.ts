@@ -3,8 +3,8 @@ import gluteoDepois1 from '@/assets/ante-x-depois-img/gluteo-1.2.png'
 import gluteoAntes2 from '@/assets/ante-x-depois-img/gluteo-2.1.png'
 import gluteoDepois2 from '@/assets/ante-x-depois-img/gluteo-2.2.png'
 
-import depoimento1 from '@/assets/ante-x-depois-img/depoimento-1.png'
-import depoimento2 from '@/assets/ante-x-depois-img/depoimento-2.png'
+import depoimento1 from '@/assets/depoimentos/depoimento-1.png'
+import depoimento2 from '@/assets/depoimentos/depoimento-2.png'
 
 // Dados para o carrossel (antes x depois)
 export const carrosselData = [
